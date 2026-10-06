@@ -1,0 +1,12 @@
+# Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+
+requests
+pandas
+mysql-connector-python
+apache-airflow-providers-mysql
+streamlit
+plotly
+scikit-learn
+scipy
+sqlalchemy
+statsmodels
