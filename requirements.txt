@@ -1,9 +1,10 @@
-# Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+# Requirements untuk Streamlit Cloud (app.py)
+# Catatan: apache-airflow tidak dimasukkan karena hanya digunakan di DAG lokal (dags/worldbank_etl.py)
+# dan membutuhkan library sistem (libmysqlclient-dev) yang tidak tersedia di Streamlit Cloud.
 
 requests
 pandas
 mysql-connector-python
-apache-airflow-providers-mysql
 streamlit
 plotly
 scikit-learn
